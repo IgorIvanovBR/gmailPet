@@ -1,0 +1,77 @@
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.wrapperCard {
+  /*background-color: #aabfc9;*/
+}
+
+#loginBlock {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.appCard {
+  border: none;
+}
+.mailSvg {
+  width: 180px;
+  padding-bottom: 40px;
+}
+.loginButton {
+  background-color: #e6e6ff;
+  border-radius: 30px;
+  width: 200px;
+  height: 40px;
+  border-color: #b3b3ff;
+  text-transform: capitalize;
+  transition: ease 0.3s;
+  font-family: Arial, serif;
+  font-weight: bold;
+}
+.loginButton:hover {
+  cursor: pointer;
+  width: 220px;
+  height: 45px;
+  transition: ease 0.3s;
+}
+
+#emailsBlockWrapper {
+  display: flex;
+  padding: 20px;
+}
+.folderWrapper {
+  padding-top: 10px
+}
+.folderButtons {
+  width: 100px;
+}
+#mailsList {
+  text-align: left;
+  height: 500px;
+  overflow: scroll;
+}
+.mailsListWrapper{
+}
+#emptyMailList {
+  text-align: left;
+}
+#messagePreview {
+  text-align: left;
+}
+#userGreet {
+  padding-bottom: 10px;
+}
+#buttonsBlock {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: baseline;
+}
+.paginationButtons {
+  width: 50px;
+}
